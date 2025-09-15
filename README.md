@@ -59,28 +59,6 @@ npm run dev
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Project Structure
-
-\`\`\`
-├── app/                    # Next.js app directory
-│   ├── globals.css        # Global styles with design tokens
-│   ├── layout.tsx         # Root layout component
-│   └── page.tsx           # Main application page
-├── components/            # React components
-│   ├── ui/               # Reusable UI components
-│   ├── document-upload.tsx
-│   ├── document-summary.tsx
-│   ├── chat-interface.tsx
-│   ├── document-comparison.tsx
-│   └── language-toggle.tsx
-├── lib/                   # Utility functions
-│   ├── translations.ts    # Multilingual support
-│   ├── utils.ts          # Common utilities
-│   └── dropzone.ts       # File upload utilities
-└── scripts/              # Utility scripts
-    └── create-sample-documents.js
-\`\`\`
-
 ## Key Components
 
 ### DocumentUpload
